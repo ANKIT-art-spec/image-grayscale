@@ -1,0 +1,67 @@
+:root{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200rem;
+    margin: 0 auto;
+
+}
+.container > * {
+    width: 100%;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+h1,
+h2,
+h3,
+h4{
+   margin-bottom: 1rem;
+}
+h1{
+    font-size: 4rem;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+}
+h1 > span{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 4.2rem;
+    color: white;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+#myForm{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+canvas{
+    border: 0.3rem solid #c3c3c3;
+    width: 40rem;
+    height: 40rem;
+}
